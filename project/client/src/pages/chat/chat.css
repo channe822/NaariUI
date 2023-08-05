@@ -1,0 +1,126 @@
+.chat-container {
+    height: calc(100vh - 45px);
+    /* Adjust as per your needs */
+    overflow-y: scroll;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.chat-item {
+    background-color: #d39bf9;
+    color: #ffffff;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    max-width: 45%;
+}
+
+.user {
+    background-color: #f9a3e6;
+}
+
+.chatbot {
+    background-color: #a677e6;
+}
+
+input[type="text"] {
+    background-color: rgb(235, 234, 234);
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    bottom: 0;
+}
+
+
+input[type="text"]:focus {
+    border-color: #d39bf9;
+}
+
+.chatbot-reply {
+    margin-top: -10%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chat-item.chatbot {
+    background-color: #d39bf9;
+    color: #ffffff;
+    /* padding: 1%; */
+    margin-bottom: 8px;
+    border-radius: 10px;
+    width: 45%;
+    text-align: left;
+}
+
+.input-text {
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+}
+
+.text-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    color: black;
+}
+
+.btn-button {
+    margin-right: 20px;
+    border-color: #a677e6;
+    border-radius: 40%;
+    font-size: 18px;
+    margin-top: -1px;
+    background-color: white;
+
+}
+.navbar {
+    background-color: #d39bf9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    top:0;
+    position: sticky;
+    height: 70px;
+    padding: 0;
+
+  }
+  .back-arrow{
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 30%;
+    padding: 0.5%;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    display: flex;
+    margin-right: 600px;
+  }
+.nav-heading{
+    margin:auto;
+    font-size: 32px;
+    color: white;
+}
+  
+  .navbar-img{
+    height: 1.5cm;
+    width: 1.5cm;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 50%;
+
+  }

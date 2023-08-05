@@ -1,0 +1,59 @@
+.body{
+    background-image: url("../../assests/download.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    /* height: 100vh; */
+
+}
+.application-tracker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+
+  }
+  
+  .title {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  input[type="text"]{
+    width: 50%;
+    margin-top:2%;
+    background: white;
+  }
+  .input-field {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #d39bf9;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .track-button {
+    background-color: blue;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 7%;
+  }
+  
+  .track-button:hover {
+    background-color: greenyellow;
+  }
+  
+  .tracking-result {
+    color: #a677e6;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
